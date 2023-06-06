@@ -2,7 +2,7 @@
 var colorPicker = document.getElementById('colorPicker');
 
 // Mendapatkan elemen untuk menampilkan nilai warna
-var colorValue = document.getElementById('colorValue');
+let colorValue = document.getElementById('colorValue');
 
 // Menambahkan event listener ketika nilai warna berubah
 colorPicker.addEventListener('input', function() {
