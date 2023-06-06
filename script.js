@@ -2,7 +2,7 @@
 let cekWarna = document.getElementById('colorPicker');
 
 // Mendapatkan elemen untuk menampilkan nilai warna
-let colorValue = document.getElementById('colorValue');
+let isiWarna = document.getElementById('colorValue');
 
 // Menambahkan event listener ketika nilai warna berubah
 colorPicker.addEventListener('input', function() {
