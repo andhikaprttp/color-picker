@@ -11,5 +11,5 @@ cekWarna.addEventListener('input', function() {
 
   // Mengubah background dan teks sesuai nilai warna yang dipilih
   document.body.style.backgroundColor = warna;
-  colorValue.textContent = warna;
+  isiWarna.textContent = warna;
 });
