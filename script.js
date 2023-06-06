@@ -1,5 +1,5 @@
 // Mendapatkan elemen input color
-let colorPicker = document.getElementById('colorPicker');
+let cekWarna = document.getElementById('colorPicker');
 
 // Mendapatkan elemen untuk menampilkan nilai warna
 let colorValue = document.getElementById('colorValue');
