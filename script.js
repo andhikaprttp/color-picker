@@ -7,7 +7,7 @@ let isiWarna = document.getElementById('colorValue');
 // Menambahkan event listener ketika nilai warna berubah
 cekWarna.addEventListener('input', function() {
   // Mendapatkan nilai warna yang dipilih
-  var color = colorPicker.value;
+  let color = colorPicker.value;
 
   // Mengubah background dan teks sesuai nilai warna yang dipilih
   document.body.style.backgroundColor = color;
